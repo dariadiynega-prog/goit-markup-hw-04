@@ -4,7 +4,13 @@
 }
 
 .footer-content {
-  max-width: 264px;
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-info {
+  width: 264px;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -14,4 +20,16 @@
 
 .description-text {
   color: #f4f4fd;
+}
+
+.footer-socials-title {
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer .socials-link:hover,
+.footer .socials-link:focus {
+  background-color: #31d0aa;
 }
